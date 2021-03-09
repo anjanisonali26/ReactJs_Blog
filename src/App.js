@@ -5,33 +5,21 @@ import Portfolio from "./components/Portfolio.jsx";
 function App() {
   const portfolioLinks = [
     {
-      title: "Threads",
-      caption: "Illustration",
+      title: "Angular8 -> Frontend",
+      caption: "E-comerce & Web Tournament",
+      link: "https://jakartatournament.netlify.app/home"
     },
     {
-      title: "Explore",
-      caption: "Graphic Design",
+      title: "NodeJS (Express) -> BackEnd",
+      caption: "BackEnd Game & Web Tournament",
+      link: "http://bit.ly/backendgame"
     },
     {
-      title: "Finish",
-      caption: "Identity",
-    },
-    {
-      title: "Lines",
-      caption: "Branding",
-    },
-    {
-      title: "Southwest",
-      caption: "Website Design",
-    },
-    {
-      title: "Window",
-      caption: "Photography",
-    },
-    {
-      title: "Pizza",
-      caption: "I love pizza!",
-    },
+      title: "Design",
+      caption: "Adobe Illustrator, Adobe XD, CorelDraw",
+      link: "http://bit.ly/3qa8MvV"
+    }
+
   ];
   return (
     <div className="App">
@@ -41,7 +29,7 @@ function App() {
       >
         <div className="container">
           <a className="navbar-brand js-scroll-trigger" href="#page-top">
-            ASB Trav
+          Anjani Sonali Bendre
           </a>
           <button
             className="navbar-toggler navbar-toggler-right"
@@ -74,7 +62,7 @@ function App() {
               </li>
               <li className="nav-item">
                 <a className="nav-link js-scroll-trigger" href="#team">
-                  Team
+                  Sosmed
                 </a>
               </li>
               <li className="nav-item">
@@ -90,13 +78,13 @@ function App() {
       <header className="masthead">
         <div className="container">
           <div className="intro-text">
-            <div className="intro-lead-in">Happy Travelling!</div>
-            <div className="intro-heading text-uppercase">Ayo maen kesini</div>
+            <div className="intro-lead-in">Welcome!</div>
+            <div className="intro-heading text-uppercase">My Website</div>
             <a
               className="btn btn-danger btn-xl text-uppercase js-scroll-trigger"
-              href="#services"
+              href="http://bit.ly/CV_AnjaniSonaliBendre"
             >
-              Di gass kuy
+              Resume
             </a>
           </div>
         </div>
@@ -106,47 +94,38 @@ function App() {
         <div className="container">
           <div className="row">
             <div className="col-lg-12 text-center">
-              <h2 className="section-heading text-uppercase">Services</h2>
+              <h2 className="section-heading text-uppercase">Education and Experience</h2>
               <h3 className="section-subheading text-muted">
-                Lorem ipsum dolor sit amet consectetur.
+                This is my edu and experience.
               </h3>
             </div>
           </div>
           <div className="row text-center">
             <div className="col-md-4">
               <span className="fa-stack fa-4x">
-                <i className="fa fa-circle fa-stack-2x text-primary"></i>
-                <i className="fa fa-shopping-cart fa-stack-1x fa-inverse"></i>
+                <img class="img-telkom" src="https://smktelkom-pwt.sch.id/wp-content/uploads/2019/02/logo-telkom-schools-bundar-1024x1024.png" />
               </span>
-              <h4 className="service-heading">E-Commerce</h4>
+              <h4 className="service-heading">Telkom School</h4>
               <p className="text-muted">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima
-                maxime quam architecto quo inventore harum ex magni, dicta
-                impedit.
+                SMK Telkom Malang is the pioneer of the first vocational high school in Indonesia in the field of Technology and Information Technology.
               </p>
             </div>
             <div className="col-md-4">
               <span className="fa-stack fa-4x">
-                <i className="fa fa-circle fa-stack-2x text-primary"></i>
-                <i className="fa fa-laptop fa-stack-1x fa-inverse"></i>
+                <img class="img-saltac" src="https://media-exp1.licdn.com/dms/image/C510BAQGy3oW6l2gXig/company-logo_200_200/0/1582168743193?e=2159024400&v=beta&t=dp8X-IyCthfAAoxTzoGi_7KpfriiYaC0hFU6s7UwqVE" />
               </span>
-              <h4 className="service-heading">Responsive Design</h4>
+              <h4 className="service-heading">Salt Academy</h4>
               <p className="text-muted">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima
-                maxime quam architecto quo inventore harum ex magni, dicta
-                impedit.
+                Guaranteed job placement. in the industry and priority. to work for SALT Indonesia. DEVELOP YOUR ATTITUDE.
               </p>
             </div>
             <div className="col-md-4">
               <span className="fa-stack fa-4x">
-                <i className="fa fa-circle fa-stack-2x text-primary"></i>
-                <i className="fa fa-lock fa-stack-1x fa-inverse"></i>
+                <img class="img-saltind" src="https://media-exp1.licdn.com/dms/image/C510BAQENgKKAPBX4iw/company-logo_200_200/0/1557821978122?e=2159024400&v=beta&t=rQK9Dpv7NGWkar6SSALXn-p7l73MrfzGQw5NwWi2jWA" />
               </span>
-              <h4 className="service-heading">Web Security</h4>
+              <h4 className="service-heading">SALT Indonesia</h4>
               <p className="text-muted">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima
-                maxime quam architecto quo inventore harum ex magni, dicta
-                impedit.
+                Here I work as a Frontend Developer. ENTERPRISE MARKETING TECHNOLOGY DEVELOPMENT. Assist enterprise adaptable to technology disruptions by marketing technology transformation.
               </p>
             </div>
           </div>
@@ -159,9 +138,9 @@ function App() {
         <div className="container">
           <div className="row">
             <div className="col-lg-12 text-center">
-              <h2 className="section-heading text-uppercase">About</h2>
+              <h2 className="section-heading text-uppercase">Workshop experience</h2>
               <h3 className="section-subheading text-muted">
-                Lorem ipsum dolor sit amet consectetur.
+                Hi, I include the experience of the IT workshop, and the experience of participating in the competition.
               </h3>
             </div>
           </div>
@@ -178,15 +157,12 @@ function App() {
                   </div>
                   <div className="timeline-panel">
                     <div className="timeline-heading">
-                      <h4>2009-2011</h4>
-                      <h4 className="subheading">Our Humble Beginnings</h4>
+                      <h4>May 2019</h4>
+                      <h4 className="subheading">Workshop Security Software Freedom Day 2019 in Brawijaya University</h4>
                     </div>
                     <div className="timeline-body">
                       <p className="text-muted">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing
-                        elit. Sunt ut voluptatum eius sapiente, totam reiciendis
-                        temporibus qui quibusdam, recusandae sit vero unde, sed,
-                        incidunt et ea quo dolore laudantium consectetur!
+                        Security software is any type of software that secures and protects a computer, network or any computing-enabled device. It manages access control, provides data protection, secures the system against viruses and network/Internet based intrusions, and defends against other system-level security risks.
                       </p>
                     </div>
                   </div>
@@ -201,15 +177,12 @@ function App() {
                   </div>
                   <div className="timeline-panel">
                     <div className="timeline-heading">
-                      <h4>March 2011</h4>
-                      <h4 className="subheading">An Agency is Born</h4>
+                      <h4>June 2018</h4>
+                      <h4 className="subheading">Essay Competition</h4>
                     </div>
                     <div className="timeline-body">
                       <p className="text-muted">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing
-                        elit. Sunt ut voluptatum eius sapiente, totam reiciendis
-                        temporibus qui quibusdam, recusandae sit vero unde, sed,
-                        incidunt et ea quo dolore laudantium consectetur!
+                      The essay competition tells about the world of IT, consisting of 600 words, 3 pages.
                       </p>
                     </div>
                   </div>
@@ -224,38 +197,12 @@ function App() {
                   </div>
                   <div className="timeline-panel">
                     <div className="timeline-heading">
-                      <h4>December 2012</h4>
-                      <h4 className="subheading">Transition to Full Service</h4>
+                      <h4>August 2019</h4>
+                      <h4 className="subheading">Paskibra at PT Telkom Area Malang</h4>
                     </div>
                     <div className="timeline-body">
                       <p className="text-muted">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing
-                        elit. Sunt ut voluptatum eius sapiente, totam reiciendis
-                        temporibus qui quibusdam, recusandae sit vero unde, sed,
-                        incidunt et ea quo dolore laudantium consectetur!
-                      </p>
-                    </div>
-                  </div>
-                </li>
-                <li className="timeline-inverted">
-                  <div className="timeline-image">
-                    <img
-                      className="rounded-circle img-fluid"
-                      src="img/about/4.jpg"
-                      alt=""
-                    />
-                  </div>
-                  <div className="timeline-panel">
-                    <div className="timeline-heading">
-                      <h4>July 2014</h4>
-                      <h4 className="subheading">Phase Two Expansion</h4>
-                    </div>
-                    <div className="timeline-body">
-                      <p className="text-muted">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing
-                        elit. Sunt ut voluptatum eius sapiente, totam reiciendis
-                        temporibus qui quibusdam, recusandae sit vero unde, sed,
-                        incidunt et ea quo dolore laudantium consectetur!
+                      Here I am as a flag raiser, here I learn about courage, solidarity, and teamwork
                       </p>
                     </div>
                   </div>
@@ -294,20 +241,34 @@ function App() {
               <div className="team-member">
                 <img
                   className="mx-auto rounded-circle"
-                  src="f.png"
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/1200px-Instagram_logo_2016.svg.png"
                   alt="instagram"
                 />
                 <h4>Instagram</h4>
                 <p className="text-muted">Anjani Sonali Bendre</p>
                 <ul className="list-inline social-buttons">
                   <li className="list-inline-item">
-                    <a href="#something">
-                    <i class="fa fa-instagram"></i>
+                    <a href="https://www.instagram.com/anjanisonalii/">
+                      <i class="fa fa-instagram"></i>
                     </a>
                   </li>
+                 
+                </ul>
+              </div>
+            </div>
+            <div className="col-sm-4">
+              <div className="team-member">
+                <img
+                  className="mx-auto rounded-circle"
+                  src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
+                  alt=""
+                />
+                <h4>Github</h4>
+                <p className="text-muted">anjanisonali26</p>
+                <ul className="list-inline social-buttons">
                   <li className="list-inline-item">
-                    <a href="#something">
-                    <i class="fa fa-github"></i>
+                    <a href="https://github.com/anjanisonali26">
+                      <i class="fa fa-github"></i>
                     </a>
                   </li>
                 </ul>
@@ -320,50 +281,12 @@ function App() {
                   src="f.png"
                   alt=""
                 />
-                <h4>Larry Parker</h4>
-                <p className="text-muted">Lead Marketer</p>
+                <h4>Facebook</h4>
+                <p className="text-muted">Anjani Sonali Bendre</p>
                 <ul className="list-inline social-buttons">
                   <li className="list-inline-item">
-                    <a href="#something">
-                      <i className="fa fa-twitter"></i>
-                    </a>
-                  </li>
-                  <li className="list-inline-item">
-                    <a href="#something">
+                    <a href="https://www.facebook.com/anjani.bendre26/">
                       <i className="fa fa-facebook-f"></i>
-                    </a>
-                  </li>
-                  <li className="list-inline-item">
-                    <a href="#something">
-                    <i class="fa fa-github"></i>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div className="col-sm-4">
-              <div className="team-member">
-                <img
-                  className="mx-auto rounded-circle"
-                  src="f.png"
-                  alt=""
-                />
-                <h4>Diana Pertersen</h4>
-                <p className="text-muted">Lead Developer</p>
-                <ul className="list-inline social-buttons">
-                  <li className="list-inline-item">
-                    <a href="#something">
-                      <i className="fa fa-twitter"></i>
-                    </a>
-                  </li>
-                  <li className="list-inline-item">
-                    <a href="#something">
-                      <i className="fa fa-facebook-f"></i>
-                    </a>
-                  </li>
-                  <li className="list-inline-item">
-                    <a href="#something">
-                    <i class="fa fa-github"></i>
                     </a>
                   </li>
                 </ul>
@@ -373,9 +296,6 @@ function App() {
           <div className="row">
             <div className="col-lg-8 mx-auto text-center">
               <p className="large text-muted">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut
-                eaque, laboriosam veritatis, quos non quis ad perspiciatis,
-                totam corporis ea, alias ut unde.
               </p>
             </div>
           </div>
@@ -431,7 +351,7 @@ function App() {
             <div className="col-lg-12 text-center">
               <h2 className="section-heading text-uppercase">Contact Us</h2>
               <h3 className="section-subheading text-muted">
-                Lorem ipsum dolor sit amet consectetur.
+                Please contact Me
               </h3>
             </div>
           </div>
@@ -509,35 +429,17 @@ function App() {
           <div className="row align-items-center">
             <div className="col-md-4">
               <span className="copyright">
-                Copyright &copy; Your Website 2019
+                Copyright &copy; AnjaniSB 2021
               </span>
             </div>
-            <div className="col-md-4">
-              <ul className="list-inline social-buttons">
-                <li className="list-inline-item">
-                  <a href="#something">
-                    <i className="fa fa-twitter"></i>
-                  </a>
-                </li>
-                <li className="list-inline-item">
-                  <a href="#something">
-                    <i className="fa fa-facebook-f"></i>
-                  </a>
-                </li>
-                <li className="list-inline-item">
-                  <a href="#something">
-                    <i className="fa fa-linkedin-in"></i>
-                  </a>
-                </li>
-              </ul>
-            </div>
+           
             <div className="col-md-4">
               <ul className="list-inline quicklinks">
                 <li className="list-inline-item">
-                  <a href="#something">Privacy Policy</a>
+                  <a href="https://wa.me/6287751766663">WhatsApp</a>
                 </li>
                 <li className="list-inline-item">
-                  <a href="#something">Terms of Use</a>
+                  <a href="https://t.me/anjanisonalii">Telegram</a>
                 </li>
               </ul>
             </div>

@@ -36,3 +36,42 @@
     transform: rotate(360deg);
   }
 }
+img.img-saltind {
+  margin: -48px;
+  padding: -14px;
+  margin-top: -59px;
+  border-radius: 50%;
+  height: 92%;
+}
+img.img-saltac{
+  margin: -48px;
+    padding: -14px;
+    margin-top: -74px;
+    border-radius: 50%;
+    height: 134%;
+}
+img.img-telkom{
+  margin: -48px;
+  padding: -14px;
+  margin-top: -74px;
+  border-radius: 50%;
+  height: 132%;
+}
+.timeline>li .timeline-image {
+  position: absolute;
+  z-index: 100;
+  left: 0;
+  width: 80px;
+  height: 80px;
+  margin-left: 0;
+  text-align: center;
+  color: #fff;
+  border: 7px solid #e9ecef;
+  border-radius: 100%;
+  background-color: #9c4f94;
+}
+a.navbar-brand.js-scroll-trigger {
+  color: #fff;
+  font-family: Brush Script MT, Brush Script Std, cursive;
+  font-size: 27px;
+}
